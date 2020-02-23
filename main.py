@@ -9,7 +9,7 @@ WINDOW_NAME = "Hilbert Image"
 
 parser = argparse.ArgumentParser(description='Gets an Image as input and saves the hilbert curved image. Works best on squared images. use -p for preview.')
 parser.add_argument('image', help="Path to image.", type=str)
-parser.add_argument('--save-to', help="Path to save location", type=str, default=".res.jpg")
+parser.add_argument('--save-to', help="Path to save location", type=str, default="./res.jpg")
 parser.add_argument('--order', help="Order of dense hilbert curve.", type=int, default=7)
 parser.add_argument('--size', help="Final image size.", type=int, default=1024)
 parser.add_argument('--thickness', help="Line thickness value.", type=int, default=4)
