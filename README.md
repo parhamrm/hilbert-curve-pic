@@ -3,9 +3,9 @@ Hilbert curve pic masks pictures and saves the output. The main job is drawing a
 
 Here is a demo:
 
-![Original Image](./BIElizabeth.jpg)
+![Original Image](./static/BIElizabeth.jpg)
 
-![Original Image](./res.jpg)
+![Original Image](./static/res.jpg)
 
 ---
 https://thecodingtrain.com/CodingInTheCabana/003-hilbert-curve.html
